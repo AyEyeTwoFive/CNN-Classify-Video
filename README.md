@@ -1,4 +1,4 @@
-# RNN Classification of Afib Diagnosis from Echos
+# RNN Classification of Atrial Fibrillation from Echos
 ## Methods
 ### Data Preparation
 First, Echo videos were converted into images. This was done by sampling 64 frames equally spaced across each video. This was done to reduce the size of input into the model. Data was split into 90% train and 10% test. When images are loaded into the model, they are downsampled to 112 by 112. Transformations are also performed, namely Random Horizontal Flip, Random Affine, and normalization. 
