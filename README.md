@@ -1,1 +1,2 @@
-# CNN-Classify-Video
+# RNN Classification of Afib Diagnosis from Echos
+
